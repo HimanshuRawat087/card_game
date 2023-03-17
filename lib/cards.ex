@@ -7,8 +7,8 @@ defmodule Cards do
     Enum.shuffle(deck)
   end
 
-  def open_deck(deck) do 
-    deck
+  def contains?(deck , card) do 
+    Enum.member?(deck , card)
   end
 end
 
