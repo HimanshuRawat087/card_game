@@ -6,5 +6,9 @@ defmodule Cards do
   def shuffle_cards(deck) do
     Enum.shuffle(deck)
   end
+
+  def open_deck(deck) do 
+    deck
+  end
 end
 
